@@ -24,10 +24,5 @@ Die Seite sollte auf jedem Bildschirm gleich aussehen. Dafür habe ich alle Grö
 - Elemente mit `position: absolute` hängen von der Seitenhöhe ab und verschieben sich, wenn sich die Schrift ändert.
 - Ich habe das in den Karten behoben, indem ich sie relativ zu ihrem Bereich positioniere.
 
-## Was ich verbessern würde
-- Layout mit Flexbox oder Grid statt `position: absolute`
-- Schriftgrössen mit `clamp()` und Media Queries für schmale Bildschirme
-- Semantische HTML-Tags (`header`, `nav`, `main`) und Alternativtexte für Bilder
-
 ## Hinweis
 Bilder und Videos sind nicht im Repository enthalten.
