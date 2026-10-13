@@ -1,0 +1,130 @@
+body { /*стиль тексту в баді*/
+  font-family: "Montserrat Alternates";
+  margin: 0;
+  padding: 0;}
+/*стилі montserrat з гугла: https://fonts.google.com/specimen/Montserrat+Alternates */
+.montserrat-alternates-thin {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.montserrat-alternates-extralight {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.montserrat-alternates-light {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.montserrat-alternates-regular {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-alternates-medium {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-alternates-semibold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-alternates-bold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.montserrat-alternates-extrabold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.montserrat-alternates-black {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.montserrat-alternates-thin-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+.montserrat-alternates-extralight-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+.montserrat-alternates-light-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.montserrat-alternates-regular-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.montserrat-alternates-medium-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.montserrat-alternates-semibold-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.montserrat-alternates-bold-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.montserrat-alternates-extrabold-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+.montserrat-alternates-black-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.fixed { /*стиль фіксованої плашки логотипу*/
+position: fixed;
+top: 0px;
+left: 4%;
+width: 7vw;}
+.uptext{ /*стиль тексту зверху*/
+margin-top: 10px;
+margin-left: 5%;
+padding-left: 21%;
+font-size: 3vw;}
+.upbuttons{ /*кнопка головна сторінка */
+margin-top: 10px+3vw;
+margin-left: 12%;
+font-size: 1.5vw;
+background-color: white;
+color: rgb(0, 0, 0);
+border-color: rgb(233, 218, 218);
+border-width: 0.0vw;
+border-radius: 10px;
+cursor: pointer;}
+.underline { /*стиль тексту підкреслення*/
+text-decoration: underline;}
+.upravl{
+position:absolute;
+top: 1vw;
+left: 10vw;
+font-size: 1vw;
+white-space: pre;
+}
+.downlogo{
+position:absolute;
+top: 113vw;
+left: 10vw;
+width: 15vw;
+}

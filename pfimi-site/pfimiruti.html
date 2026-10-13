@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Вирівнювання на різних девайсах-->
+  <title>Chile a de Jona</title>
+  <link rel="stylesheet" href="styles.css"> <!--Підключення ксс-->
+  <script src="script.js" defer></script> <!--Підключення джаваскрипту-->
+  <!--Підключення шрифтів гугл-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <img src="pics/pfimiline.gif" style="width: 100vw; height: 25vw; top: 13vw; position:absolute;" >
+  <img src="pics/chile_logo.avif" class="fixed">  <!--лого зліва -->
+  <p class="uptext montserrat-alternates-regular">Безкоштовна Євангелічна Церква</p>
+
+  <button id="Return"; class="montserrat-alternates-light upbuttons underline">Головна сторінка</button>
+  <button id="News"; class="montserrat-alternates-light upbuttons underline">Новини</button>
+  <button id="Week"; class="montserrat-alternates-light upbuttons underline">Розклад</button>
+  <button id="Contact"; class="montserrat-alternates-light upbuttons underline">Про нас</button>
+
+  <div style="margin-top: 30vw;" class="boxes" >
+  <img src="pics/pfimilogo.avif" style="width: 8%;"> <span class="montserrat-alternates-bold boxcaption";>Pfimi-Ruti</span>
+
+  <div class="b-n-box"; id="korob1"> <!--перша коробка з інформацією-->
+  <button class="b-n active montserrat-alternates-extralight" data-tab="tab1-1">Вітаємо!</button>
+  <button class="b-n montserrat-alternates-extralight" data-tab="tab1-2">Богослужіння</button>
+  <button class="b-n montserrat-alternates-extralight" data-tab="tab1-3">Порядок денний</button>
+  </div>
+  <div class="tab active " id="tab1-1">
+  <h2>Спільне пізнання Бога</h2>
+  <p>Відчуйте натхненні богослужіння,</p>
+  <p>де ми разом занурюємося в поклоніння</p>
+  <p>та ділимося підбадьорливими посланнями.</p>
+  <p>Ми хочемо супроводжувати вас у вірі.</p>
+  <p>Приходьте та дізнайтеся, як спільнота</p>
+  <p>та Боже Слово можуть збагатити ваше життя.</p>
+  <p>З нетерпінням чекаємо на зустріч з вами!</p>
+  <p>До скорої зустрічі!</p>
+  <video src="pics/welcome.mp4" style="width: 33vw; position:absolute; top:52vw; left:48%; right: 10%; margin-top: 30px;" controls></video>
+  </div>
+  <div class="tab" id="tab1-2">
+  <!-- TODO: на скріншоті посилання обрізане після "https://www.youtu" — підставте своє відео/плейлист -->
+  <iframe style="width: 30vw; height: 15vw;position:absolute; top:52vw; left:52%; right: 10%; margin-top: 30px;" src="https://www.youtube.com/embed/TODO"></iframe>
+  <h2>Служби Нд 10:00</h2>
+  <p>Як громада, ми транслюємо наші служби в прямому ефірі</p>
+  <p>кожної першої неділі місяця та робимо проповіді</p>
+  <p>доступними для прослуховування після цього. Усі інші</p>
+  <p>послуги доступні у форматі аудіо. У нашому плейлисті ви</p>
+  <p>можете прослухати все, аж до останньої проповіді.</p>
+  <p>Пориньте у потужне послання.</p>
+  </div>
+  <div class="tab" id="tab1-3">
+  <!-- TODO: у оригіналі після "?q=churchcal&categor..." йдуть ще параметри (скріншот обрізаний) -->
+  <iframe  width="100%" height="80%" style="border-width:0px" scrolling="no" src="https://pfimi-rueti.church.tools/?q=churchcal"></iframe>
+  </div>
+  </div>
+
+
+
+  <div style="margin-top: 6%;" class="boxes" id="korob2" >
+  <img src="pics/pfimilogo.avif" style="width: 8%;"> <span class="montserrat-alternates-bold boxcaption">Новини та інформація</span>
+
+  <div class="b-n-box " > <!--друга коробка з інформацією-->
+  <button class="b-n active montserrat-alternates-extralight" data-tab="tab2-1">Табір Рейнджерів</button>
+  <button class="b-n montserrat-alternates-extralight" data-tab="tab2-2">100 Років</button>
+  <button class="b-n montserrat-alternates-extralight" data-tab="tab2-3">Ювілей</button>
+  </div>
+  <div class="tab active " id="tab2-1">
+  <h2>Табір Вознесіння Королівських Рейнджерів</h2>
+  <p>Для всіх дітей віком 7-12 років.</p>
+  <p>Зареєструйтесь на </p>
+  <a href="https://royalrangers.ch/aufla-ost">royalrangers.ch/aufla-ost</a>
+  <img src="pics/royalranger.avif" style="width: 33vw; position:absolute; top:101vw; left:48%; right: 10%; margin-top: 34px;">
+  </div>
+  <div class="tab" id="tab2-2">
+  <img style="width: 25vw; position:absolute; top:200px+91vw; left:48%; right: 10%" src="pics/100jahre.avif" >
+  <h2>100 років Pfimi-Ruti</h2>
+
+  </div>
+  <div class="tab" id="tab2-3">
+  <h2>Ювілейне богослужіння</h2>
+  <p>з Ладіною та Фабіаном Шмідом</p>
+  <a href="https://edenmusic.ch">edenmusic.ch</a>
+  <img src="pics/worship.avif" style="width: 40vw; position:absolute; top:101vw; left:38%; right: 10%; margin-top: 35px;">
+  </div>
+  </div>
+
+  <div style="margin-top: 6%; height: 51vw;"  class="boxes" id="korob3">
+  <img src="pics/pfimilogo.avif" style="width: 8%;"> <span class="montserrat-alternates-bold boxcaption";>Недільна програма</span>
+  <div class="b-n-box"></div>
+  <div class="cardbuttons"  data-tab="firstpop">
+  <img id="pastorr" src="pics/pastor.avif" class="pastorimg" >
+  <div class="shadow pastorimg"><p style="font-size: 2vw;"; class="overimgtext">Служба</p>
+  <p class="overimgtext">На наших службах ми хочемо зустрітися з Богом.</p>
+  <p class="overimgtext">Для нас Бог реальний і присутній.</p>
+  <p class="overimgtext">Ми хочемо зосередитися на Ньому через молитву, поклоніння та проповідь.</p>
+  </div>
+  </div>
+
+  <div class="cardbuttons" data-tab="secondpop">
+  <img id="royall" src="pics/royal.avif" class="royalimg" >
+  <div class="shadow royalimg"><p style="font-size: 2vw;"; class="overimgtext">Хвала та поклоніння</p>
+  <p class="overimgtext">Чи любите ви поклонятися Богу та віддавати Йому всю славу?</p>
+  </div>
+  </div>
+
+
+  <div class="cardbuttons" data-tab="thirdpop">
+  <img id="kidss" src="pics/kids.avif" class="kidsimg" >
+  <div class="shadow kidsimg"><p style="font-size: 2vw;"; class="overimgtext">Дитячий клуб</p>
+  <p class="overimgtext">У Дитячому клубі (віком 6-11 років) діти можуть насолоджуватися розвагами, іграми та Богом.</p>
+  <p class="overimgtext">Ми хочемо познайомити дітей із захопливим світом Біблії.</p>
+  <p class="overimgtext">Мотивована команда чекає на вас щонеділі (крім шкільних канікул).</p>
+  </div>
+  </div>
+
+
+  <div class="cardbuttons" data-tab="fourthpop">
+  <img id="kinderr" src="pics/kinder.avif" class="kinderimg" >
+  <div class="shadow kinderimg"><p style="font-size: 2vw;"; class="overimgtext">Поклоніння</p>
+  <p class="overimgtext">На наших службах ми хочемо зустрітися з Богом.</p>
+  <p class="overimgtext">Для нас Бог реальний і присутній.</p>
+  <p class="overimgtext">Ми хочемо зосередитися на Ньому через молитву, поклоніння та проповідь.</p>
+  </div>
+  </div>
+
+  </div>
+
+
+
+<div style="position: relative;"> <p class="upravl">Під городським управлінням:                    Контакт:
+
+
+
+                                       Begegnungszentrum an der Jona
+                                       Tobelstr. 20
+                                       8632 Tann
+                                       Pastor, Willyams Fischer
+
+
+</p><img src="pics/downlogo.avif" class="downlogo"> </div>
+<div style="position: fixed; top:0px; height: 100%; width: 100vw; background-color: rgba(0, 0, 0, 0.7);" id="nightthing" class="popup"></div>
+  <div>
+  <div id="firstpop"; class="popup">
+    <img src="pics/close.png" style="position:absolute; right: 0px;" class="closebutton" data-tab="firstpop">
+    <p class="popuptext"; style="font-size: 3vw;";>Церковна служба</p>
+    <p class="popuptext";>"Надихаючі проповіді, поклоніння та обожнювання"</p>
+    <p class="popuptext";>Щонеділі о 10:00 ранку за адресою Тобельштрассе 20, 8632 Танн,</p>
+    <p class="popuptext";>ми відкриваємо наші двері для служб, які не лише торкаються</p>
+    <p class="popuptext";>серця, але й надихають дух. Наші проповіді покликані передавати</p>
+    <p class="popuptext";>вічні біблійні істини у спосіб, що є актуальним, актуальним для</p>
+    <p class="popuptext";>життя та підбадьорливим.</p>
+    <p class="popuptext";>&nbsp;</p> <!-- TODO: на скріншоті в таких рядках стоїть "0" — замінено на пустий рядок -->
+    <p class="popuptext";>Наша увага приділяється: Слово Боже, поклоніння та спілкування</p>
+    <p class="popuptext";>Наше зобов'язання: Ми з'єднуємо людей з Христом</p>
+    <p class="popuptext";>Церква для всіх: допомога, молитва, консультування та підтримка одне одного</p>
+    <p class="popuptext";>&nbsp;</p>
+    <p class="popuptext";>Різноманітні програми для всієї родини:</p>
+    <p class="popuptext";>Окрім церковних служб, існують різні програми для дітей та</p>
+    <p class="popuptext";>молоді, таких як Дитячий клуб та Королівські рейнджери, а також</p>
+    <p class="popuptext";>домашні групи для поглиблених розмов та спілкування.</p>
+    <p class="popuptext";>&nbsp;</p>
+    <p class="popuptext";>Ласкаво просимо:</p>
+    <p class="popuptext";>Перевірте наш календар, щоб дізнатися більше про наші служби</p>
+    <p class="popuptext";>та супутні програми. Ми з нетерпінням чекаємо на вас!</p>
+
+  </div>
+  </div>
+
+  <div>
+  <div id="secondpop"; class="popup">
+    <img src="pics/close.png" class="closebutton" style="position:absolute; right: 0px;" data-tab="secondpop">
+    <p class="popuptext"; style="font-size: 3vw;";>Хвала та поклоніння</p>
+    <p class="popuptext";>«Музичний досвід з Богом»</p>
+    <p class="popuptext";>Для тих, хто хоче поєднати свою любов до музики та віру, наша</p>
+    <p class="popuptext";>група хвали та поклоніння пропонує ідеальну можливість. Якщо</p>
+    <p class="popuptext";>поклоніння Богові, створення музики та співів – ваша пристрасть,</p>
+    <p class="popuptext";>то ви потрапили в потрібне місце.</p>
+    <p class="popuptext";>&nbsp;</p>
+    <p class="popuptext bolder";>Чого ви можете очікувати?</p>
+    <p class="popuptext";>Тепла та гостинна спільнота, що характеризується любов'ю до музики та віри.</p>
+    <p class="popuptext";>Щонеділі одна з наших талановитих команд проводить музичне</p>
+    <p class="popuptext";>богослужіння для громади, роблячи кожне служіння особливим</p>
+    <p class="popuptext";>духовним досвідом.</p>
+    <p class="popuptext";>&nbsp;</p>
+    <p class="popuptext";>Ваш внесок у музичне поклоніння:</p>
+    <p class="popuptext";>Незалежно від того, чи досвідчений музикант, чи просто</p>
+    <p class="popuptext";>любите грати музику, ваша участь збагатить те, як ми</p>
+    <p class="popuptext";>поклоняємося та шануємо Бога.</p>
+
+  </div>
+  </div>
+
+  <div>
+  <div id="thirdpop"; class="popup">
+    <img src="pics/close.png" class="closebutton" style="position:absolute; right: 0px;" data-tab="thirdpop">
+    <p class="popuptext"; style="font-size: 3vw;";>Дитячий клуб</p>
+    <p class="popuptext";>У Дитячому клубі ми пропонуємо різноманітну та захопливу</p>
+    <p class="popuptext";>програму щонеділі (крім шкільних канікул) для дітей 1–6 класів.</p>
+    <p class="popuptext";>Це місце, де ваші діти можуть розважатися, заводити друзів та</p>
+    <p class="popuptext";>вивчати нове в безпечному та стимулюючому середовищі.</p>
+    <p class="popuptext";>&nbsp;</p>
+    <p class="popuptext bolder";>Що пропонує Дитячий Клуб?</p>
+    <p class="popuptext";>Креативні та інтерактивні способи дослідження Біблії, які</p>
+    <p class="popuptext";>викликають інтерес та ентузіазм ваших дітей.</p>
+    <p class="popuptext";>Атмосфера, зосереджена на грі, навчанні та особистісному</p>
+    <p class="popuptext";>розвитку.</p>
+    <p class="popuptext";>Нагляд нашої досвідченої команди гарантує, що кожна дитина</p>
+    <p class="popuptext";>почувається цінною та безпечною.</p>
+    <p class="popuptext";>&nbsp;</p>
+    <p class="popuptext";>Запрошення до Дитячого клубу:</p>
+    <p class="popuptext";>Вся команда Дитячого клубу щиро вітає вас та ваших дітей. Ми з</p>
+    <p class="popuptext";>нетерпінням чекаємо на вашу дитину та будемо супроводжувати її</p>
+    <p class="popuptext";>на її шляху зростання та відкриттів.</p>
+
+
+
+  </div>
+  </div>
+
+
+  <div>
+  <div id="fourthpop"; class="popup">
+    <img src="pics/close.png" class="closebutton" style="position:absolute; right: 0px;" data-tab="fourthpop">
+    <p class="popuptext"; style="font-size: 3vw;";>Дитячий садок</p>
+    <p class="popuptext";>"Де малюкам чудово!"</p>
+    <p class="popuptext";>У нашій громаді ми з особливою турботою ставимося до наших</p>
+    <p class="popuptext";>наймолодших членів. Наш дитячий садок – це не просто місце</p>
+    <p class="popuptext";>турботи, а люблячий простір, де малюки можуть розвиватися</p>
+    <p class="popuptext";>через гру та заводити друзів.</p>
+    <p class="popuptext";>&nbsp;</p>
+    <p class="popuptext bolder";>Що ми пропонуємо:</p>
+    <p class="popuptext";>Поряд із церковною службою, досвідчена та турботлива команда</p>
+    <p class="popuptext";>піклуватиметься про ваших дітей.</p>
+    <p class="popuptext";>Безпечне та стимулююче середовище для малюків до 5 років.</p>
+    <p class="popuptext";>Заходи, адаптовані до вікової групи та сприяють розвитку дитини.</p>
+    <p class="popuptext";>&nbsp;</p>
+    <p class="popuptext";>З нами ваші діти в надійних руках:</p>
+    <p class="popuptext";>Наша головна опіка, Брігітта Вільдермут, та її команда з</p>
+    <p class="popuptext";>нетерпінням чекають на ваших малюків!</p>
+
+
+  </div>
+  </div>
+
+
+
+</body>
+</html>
